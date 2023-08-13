@@ -7,3 +7,13 @@ In this program we will visualize Breadth-First Search algorithm.
 Breadth-first search is an algorithm for searching a tree data structure for a node that satisfies a given property. 
 
 BFS is a level-based approach that explores all of its neighbor nodes at its next depth before moving on to the other nodes. It can be used to find the shortest path in an unweighted graph by keeping track of the distance and parent node of each node in the graph.
+
+To visualize BFS i used 
+
+,SDL2:Simple DirectMedia Layer  
+,C++20.
+,g++ compiler.
+
+for this program to work for you ,you need to install SDL2 (libsdl2-dev),please view how to 
+
+
