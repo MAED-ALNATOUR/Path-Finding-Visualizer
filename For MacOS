@@ -1,0 +1,40 @@
+To install libsd2-dev on macOS, you can use MacPorts, a package manager for macOS. Here are the steps:
+
+Install MacPorts by following the instructions on the MacPorts website
+
+https://ports.macports.org/port/libsdl2/  
+
+Open the Terminal application on your Mac. You can find it in the Utilities folder within the Applications folder.
+
+Use MacPorts to install libsdl2 by running the following command in the terminal:
+
+sudo port install libsdl2
+
+After the installation is complete, you can verify that libsdl2 is installed by running the following command:
+
+sdl2-config --version
+
+This should display the version number of libsdl2 installed on your system
+
+ANOTHER WAY TO INSTALL SDL2 ON MACOS
+
+To install SDL2 on macOS using the terminal, you can follow these steps:
+
+Open the Terminal application on your Mac. You can find it in the Utilities folder within the Applications folder.
+
+Install Homebrew, a package manager for macOS, by running the following command in the terminal:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Once Homebrew is installed, you can use it to install SDL2 by running the following command:
+
+brew install sdl2
+
+After the installation is complete, you can verify that SDL2 is installed by running the following command:
+
+sdl2-config --version
+
+This should display the version number of SDL2 installed on your system. Note that these steps assume you have a basic understanding of using the terminal on macOS. Homebrew simplifies the installation process by handling dependencies and ensuring the correct installation of SDL2.
+
+
+
