@@ -14,6 +14,12 @@ To visualize BFS i used
 ,C++20.
 ,g++ compiler.
 
+use chmod +x compile.sh and then type ./compile.sh for program to compile using g++ 
+
+on Linux or mac type ./pathfindingvisualizer to start the app 
+
+on windows click on pathfindingvisualizer.exe file 
+
 for this program to work,you need to install SDL2 (libsdl2-dev),c++,g++ .
 
 please view how to SDL2 website for instalation
