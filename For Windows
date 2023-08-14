@@ -1,0 +1,50 @@
+To install libsdl2-dev on Windows, you can follow these steps:
+
+Go to the SDL2 download page 
+
+Here:https://www.matsson.com/prog/sdl2-mingw-w64-tutorial.php
+    
+and download the latest development library for Windows using MinGW.
+
+Extract the contents of the downloaded file using a tool like 7-Zip.
+
+Copy the contents of the extracted folder to a location on your computer where you want to keep the SDL2 library.
+
+Add the SDL2 library to your project by including the necessary header files and linking to the library file. 
+
+The specific steps for doing this will depend on your development environment and programming language
+
+Note that you will also need to place the SDL2.dll file
+
+in a location where your program can link with it during runtime.
+
+You can either put the dll file in the same directory as your executable or put it in the system directory
+
+https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/index.php.
+
+ANOTHER WAY TO INSTALL SLD2 ON WINDOWS 
+
+Here are the steps to install SDL2 on Windows using Chocolatey
+
+Open the command prompt as an administrator.
+ 
+Install Chocolatey by running the following command:
+
+/////
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+////
+
+Install SDL2 by running the following command:
+
+////
+choco install sdl2
+////
+    
+Verify that SDL2 is installed by running the following command:
+
+////
+sdl2-config --version
+////
+
+Note that these steps assume you have a basic understanding of using the command prompt on Windows
+
