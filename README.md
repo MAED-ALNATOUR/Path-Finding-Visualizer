@@ -14,6 +14,10 @@ To visualize BFS i used
 ,C++20.
 ,g++ compiler.
 
-for this program to work for you ,you need to install SDL2 (libsdl2-dev),please view how to 
+for this program to work,you need to install SDL2 (libsdl2-dev),c++,g++ .
 
+please view how to SDL2 website for instalation
 
+https://wiki.libsdl.org/SDL2/Installation
+
+or for quick instaallation there is instruction how to install for linux mac windows .
