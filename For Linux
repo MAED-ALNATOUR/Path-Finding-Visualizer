@@ -1,0 +1,16 @@
+To install libsdl2-dev on Linux, you can follow these steps:
+
+Open a terminal window.
+
+Enter the command sudo apt-get install libsdl2-dev and press Enter.
+    
+Enter your password when prompted and press Enter.
+   
+Wait for the installation process to complete.
+
+Note that the specific steps for installing libsdl2-dev may vary depending on your Linux distribution. For example, Red Hat-based systems (including Fedora) can simply do sudo dnf install SDL2-devel to get headers and other build requirements ready for compiling your own SDL programs2
+
+Gentoo users can sudo emerge libsdl2 to get everything they need2
+ 
+If you encounter any issues during installation, you can refer to online forums and communities for help1
+
